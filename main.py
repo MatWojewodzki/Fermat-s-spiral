@@ -24,7 +24,7 @@ def animate(frame):
     plt.ylim(0, 1.05)
     plt.autoscale(False)
     plt.gca().axes.yaxis.set_ticklabels([])
-    plt.title('Spirala Fermata')
+    plt.title('Spirala Fermata - animacja')
 
 
 anim = FuncAnimation(plt.gcf(), animate, interval=16, cache_frame_data=False)
